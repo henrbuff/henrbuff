@@ -4,6 +4,7 @@
     <title>Whitewater Rafting</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
@@ -12,24 +13,23 @@
         <img class="logo" src="image/rush1.png" alt="Logo image">
       </a>
       <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="rivers.html">Rivers</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="site-plan.html">Site Plan</a></li>
-          <li><a href="aboutme.html">About Me</a></li>
-        </ul>
+          <a href="index.html">Home</a>
+          <a href="rivers.html">Rivers</a>
+          <a href="faq.html">FAQ</a>
+          <a href="site-plan.html">Site Plan</a>
+          
       </nav>
     </header>
-    <div id="content">
-      <div id="hero">
+     <div id="hero">
+        <div id="hero-box">
         <img id="hero-img" src="image/whitewbook.jpeg" alt="People enjoying white water rafting">
-        <div id="hero-box"></div>
+        </div>
         <section id="hero-msg">
           <h1 class="home-title">Have An Adventure</h1>
           <h4>Make Memories with Rapidrush Adventures</h4>
           <div class="button-box">
-            <button type="button">Book Now</button>
+            <a class="book" href="rates.html">Book Now</a>
+            <!-- <button type="button">Book Now</button> -->
           </div>
         </section>
       </div>
@@ -49,14 +49,14 @@
           <img class="icon" src="image/oars.png" alt="oars icon">
           <h2>Rapids</h2>
         </section>
-        <div id="background">
+        <div id="background"></div>
           <img class="mountains" src="image/mountains.jpg" alt="Misty mountains">
           <section class="msg">
             <h2>More Than Just The Thrill</h2>
             <p>At RapidRush Adventures, our purpose is to ignite the spirit of adventure, connect people with the untamed beauty of nature, and create a deep appreciation for the power of teamwork. We believe in creating thrilling whitewater rafting experiences that go beyond the rapids, leaving a lasting impact on our guests and the environment we cherish.</p>
-            <button type="button">Join Us</button>
+            <a class="join" href="rivers.html">Join Us</a>
           </section>
-        </div>
+        
       </main>
       <footer>
         <p>Rapidrush Adventures &copy; 2023 - Henry Hancock</p>
@@ -64,7 +64,7 @@
         <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
           <a href="https://facebook.com">
-            <img src="image/facebook.png" alt="fb icon">
+            <img  src="image/facebook.png" alt="fb icon">
           </a>
           <a href="https://twitter.com">
             <img src="image/twitter.png" alt="twitter icon">
@@ -74,6 +74,5 @@
           </a>
         </div>
       </footer>
-    </div>
-  </body>
+    </body>
 </html>
