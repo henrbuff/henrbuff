@@ -1,3 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+             
+
+
 #content{
     max-width:1600px;
     margin: 0 auto;
@@ -158,6 +175,10 @@ grid-row: 1;
 h4{
     font-size: 20px;
     margin: 20px
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
 }
 
    
