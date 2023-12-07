@@ -7,7 +7,7 @@
 /* Body and Header */
 body {
     background-color: #31493C;
-    margin: 8px;
+     margin: 8px; 
     margin-top: auto;
     font-size: 22px;
 }
@@ -33,12 +33,14 @@ body {
 footer {
     background-color: #6f7364;
     padding: 25px 50px;
-    margin-top: 200px;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
+.home-footer{
+    margin-top: 200px;
+}
 /* Hero Section */
 #hero {
     display: grid;
@@ -71,13 +73,14 @@ footer {
 }
 
 /* Main Section */
-main {
+ .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 10%);
-}
+} 
 
 main section {
     text-align: center;
+    
 }
 
 .msg {
@@ -93,6 +96,7 @@ main section {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
     font-weight: bold;
+    
 }
 
 h4 {
@@ -120,6 +124,7 @@ nav a:hover {
 body {
     background-color: #fcfbfb;
     font-family: 'Times New Roman', Times, serif Arial, sans-serif;
+    border: 10px solid #6f7364;
 }
 
 .icon {
@@ -148,6 +153,7 @@ body {
 #background {
     grid-column: 1 / span 11;
     grid-row: 4 / span 6;
+    padding-bottom: 200px;
 }
 
 .camping-card {
@@ -204,6 +210,45 @@ p a {
     text-decoration: none;
     border-radius: 5px;
 }
+.faq-grid{
+    display:grid;
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    
+}
+.faq{
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-line: underline overline;
+}
+
+
+.question {
+    background-color: #6f7364;
+    margin-top: 20px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid #d9c2a3;
+}
+
+.answer {
+    margin-bottom: 40px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 4; }
+    .div2 { grid-area: 2 / 3 / 3 / 6; }
+    .div3 { grid-area: 3 / 1 / 4 / 4; }
+    .div4 { grid-area: 4 / 3 / 5 / 6; }
+    
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
